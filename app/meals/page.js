@@ -17,12 +17,12 @@ export default async function MealsPage() {
         <p>
           Choose your favorite recipe and cook it yourself. it is easy and fun
         </p>
-        <p classesName={classes.cta}>
+        <p className={classes.cta}>
           <Link href="/meals/share">share your favorite recipe</Link>
         </p>
       </header>
       <main className={classes.main}>
-        <MealsGrid meals={[meals]} />
+        <MealsGrid meals={meals} />
       </main>
     </>
   );
